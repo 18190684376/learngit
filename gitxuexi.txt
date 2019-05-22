@@ -1,0 +1,37 @@
+pwd			-显示当前目录
+git init		-建立仓库，在文件夹下建立的，不同的文件夹下可以建库
+ls -ah		-显示该目录下的文件，包括隐藏文件
+
+
+windows下安装了git后还要执行两段命令：（绑定自己的git）
+	$ git config --global user.name "Your Name"
+	$ git config --global user.email "email@example.com"
+
+git add readme.txt		-把文件加到仓库
+git commit -m "注释内容（强烈建议写上）"		-把文件提交到仓库
+
+例：
+	$ git add file1.txt
+	$ git add file2.txt file3.txt
+	$ git commit -m "add 3 files."
+
+
+git status 查看时刻的仓库状态
+git diff readme.txt		查看文件不同
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
